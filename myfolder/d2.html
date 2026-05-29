@@ -57,7 +57,7 @@
         </tr>
         </tbody>
     </table>
-
+<h4>Registration form</h4>
 <form action="/action.php"><!-- the action attribute in a <form> tag is used to specify where the form data will be sent after the user submits the form.-->
 <input type="text" placeholder="user name">
 <br/>
@@ -71,16 +71,54 @@
     <input type="radio" value="class xii" name="class" id="102">class xii
 </label>
 <br>
-<h2>Choose Gender</h2>
+<h4>Choose Gender</h4>
 
 <input type="radio" id="male" name="gender">
 <label for="male">Male</label>
 <br>
 <input type="radio" id="female" name="gender">
 <label for="female">Female</label>
+<br>
+<div >
+<label for="101">
+    <input type="checkbox" value="math" name="subjects" id="101" class="group">math
+</label>
+<br/>
+<label for="102">
+    <input type="checkbox" value="physics" name="subjects" id="102" class="group">physics
+</label>
+<Br/>
+<label for="103">
+    <input type="checkbox" value="chemistry" name="subjects" id="103" class="group">chemisrty
+</label>
+<br>
+<label for="104">
+    <input type="checkbox" value="english" name="subjects" id="104" class="group">english
+</label>
+</div>
+<h4>feedback</h4>
+<textarea   rows="5" cols="30" type="feedback" placeholder="give your feedback" id="feedback">feedback</textarea>
+<br/>
+<h3>Select your city:</h3>
 
+<select name="city">
+    <option>Delhi</option>
+    <option>Mumbai</option>
+    <option>Kolkata</option>
+    <option>Chennai</option>
+</select>
+<br/>
+<br/>
+<input type="submit" name="submit">
 </form>
+<h3>Open Google inside webpage:</h3>
 
-    
+<iframe src="https://www.youtube.com/embed/HcOc7P5BMi4?si=H0YrcTjFbmGp5V6g" 
+title="YouTube video player" frameborder="0"
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<br><br>
+<video src="/nature.mp4"  height="200" width="400 " controls loop>contant</video>
 </body>
 </html>

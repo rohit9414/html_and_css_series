@@ -1,0 +1,20 @@
+h1{
+    color:red;
+}
+.myid{
+    color:aqua;
+}
+#heading{
+color:rgb(210, 30, 195);
+}
+
+table{
+    width:200px;
+    height:200px;
+    text-align: center;
+
+}
+table,td,tr{
+    background-color:antiquewhite;
+    color:blueviolet;
+}
