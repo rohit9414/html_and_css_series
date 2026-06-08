@@ -1,0 +1,16 @@
+#parent{
+    width: 150px;
+    height: 100px;
+    background-color:rgb(0, 255, 55);
+    font-size: 10px;
+}
+#child{
+    height: 50px;
+    width: 50%; /* in terms of 50% of parent's width or we can say 50% of parent's width . we can also apply on height*/
+    background-color: rgb(242, 255, 0);
+    margin:10%; 
+    font-size: 2em;  /* here we use em units for font size 2em menas it double of parent's font size */
+    width:5em;/* width depend on fontsize of child not of parent */
+    height:4rem;/*it depend on root elemnt as it's root elemnt is body ,so it depend on hello font size which is inside body tag*/
+    width:10vh; /* it depend on viewport height or browser height for width we use vw and for height we use vh */
+}

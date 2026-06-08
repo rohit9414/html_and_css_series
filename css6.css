@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 238, 255);
+    border: 1px solid black;
+    display: inline-block;
+}
+ #box1{
+    position:static; /* in static position right, left ,top, down and Z-index property does not work */
+    top: 20px;
+ }
+
+ #box2{
+    position:relative; /*all support*/
+    top: 20px;
+    left: 20px;
+ }
+ #box3{
+    position:absolute; /*all support ,in case of absolute it take position relative to its nearest positioned ancestor ,for Box3 body is the nearest ancester */
+    top: 10px;
+}
+#box4{
+    position:fixed; /*all support ,in case of fixed it take position relative to viewport or browser */
+    right: 10px;
+}
+
+ 

@@ -1,0 +1,15 @@
+/* div{
+    width:100px;
+    height:100px;
+    background-color:rgb(205, 27, 116);
+    display:inline-block;
+    padding:25px;
+    margin:25px;
+    border:2px solid black;
+} */
+ div{
+    width:100px;
+    height:100px;
+    background-color:rgba(205, 0, 0, 0.5);
+    display:inline-block;
+ }
