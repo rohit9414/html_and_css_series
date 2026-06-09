@@ -13,15 +13,20 @@ div{
  #box2{
     position:relative; /*all support*/
     top: 20px;
-    left: 20px;
+    left:x;
  }
  #box3{
     position:absolute; /*all support ,in case of absolute it take position relative to its nearest positioned ancestor ,for Box3 body is the nearest ancester */
-    top: 10px;
+    top: 600px;
 }
 #box4{
     position:fixed; /*all support ,in case of fixed it take position relative to viewport or browser */
-    right: 10px;
+    left: 500px;
+}
+#box5{
+    position:sticky; 
+    top: 10px;
+    left: 500px;
 }
 
  

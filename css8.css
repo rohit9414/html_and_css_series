@@ -1,0 +1,35 @@
+div{
+    height: 75px;
+    width:150px;
+    display: inline-block;
+    border: 2px solid black;
+   
+
+}
+#container{
+    height:600px;
+    width:600px;
+    display: flex;
+    flex-direction: row;/* we can also use column and column-reverse */
+    flex-wrap: wrap;/* it will wrap the boxes in the container , we can also use nowrap */
+    justify-content:center;/* it will align the boxes in the center of the container in row ,we can also use flex-start, flex-end, space-between, space-around */
+    align-items: center;/* it will align the boxes in the center of the container  in column , we can also use flex-start, flex-end, space-between, space-around */
+    align-content: center;/* it will align the boxes in the center of the container when we have multiple rows or columns , we can also use flex-start, flex-end, space-between, space-around */
+}
+#box1{
+    background-color: lightgray;
+}
+#box2{
+    background-color: lightblue;
+     height: 150px;
+}
+#box3{
+    background-color: lightgreen;
+   
+}
+#box4{
+    background-color: rgb(231, 104, 186);
+}
+#box5{
+    background-color:aqua;
+}

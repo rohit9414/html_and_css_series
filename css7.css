@@ -1,0 +1,28 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 238, 255);
+    border: 1px solid black;
+    display: inline-block;
+}
+#box1{
+    position:relative; /* in static position right, left ,top, down and Z-index property does not work */
+    top: 20px;
+    z-index:2;
+    background-image: url('myfolder/image.jpg');/*in url we can specify the path to the image */
+    background-size: contain; /*cover: completly cover the space but some part may be lose but in 'contain' it will show the entire image but may be repeated so avoid repeatation we can use the tag background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
+}
+
+ #box2{
+    position:relative; /*all support*/
+    top: 20px;
+    left:20px;
+    z-index: 1;
+ }
+ #box3{
+    position:absolute; /*all support ,in case of absolute it take position relative to its nearest positioned ancestor ,for Box3 body is the nearest ancester */
+    top: 50px;
+    left:50px;
+    z-index: 0;
+}
