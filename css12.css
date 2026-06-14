@@ -1,0 +1,27 @@
+
+/*topic : transition in the state of the item  */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-property: all;  /* the transition will be applied to all properties that bring a change in the state of the item */
+}
+div:hover{  /* as the mouse hovers over the div, the background color will change to blue */
+   background-color: rgb(0, 208, 255);
+    color: white;
+    transition-duration: 2s;  /* the transition will take 2 seconds to change completly */
+    font-size: 20px;
+    transition-timing-function: steps(5);  /* the transition will done five steps ,we can assign any value, we can also use other timing functions ,like linear, ease, ease-in, ease-out, ease-in-out */
+    transition-delay: 1s; /* the transition will start after 3 seconds of hovering on the div */  
+    /* we can also write in shorthand like this: transition: all 2s ease-in 3s; */
+}
+
+div:active{  /* as the mouse clicks on the div, the background color will change to green */
+    background-color: green;
+    color: white;
+    transition-duration: 2s;  /* the transition will take 2 seconds to change completly */
+    font-size: 30px;
+    transition-timing-function: steps(5);  /* the transition will done five steps ,we can assign any value, we can also use other timing functions ,like linear, ease, ease-in, ease-out, ease-in-out */
+}
+
+
