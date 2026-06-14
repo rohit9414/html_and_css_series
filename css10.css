@@ -1,0 +1,19 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    background: rgb(0, 255, 89);
+    display: flex;
+    justify-content: center;/*work along main axis or row*/
+    align-items: center;/*work along cross axis or column*/
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background: rgb(21, 0, 255);
+}
+.body{
+    display: flex;
+    justify-content: center;/*work along main axis or row*/
+    align-items: center;/*work along cross axis or column*/
+}
+    

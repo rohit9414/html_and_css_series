@@ -1,0 +1,36 @@
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+   
+
+}
+#container{
+    height:300px;
+    width:600px;
+    display: flex;
+    justify-content: centre;
+   
+}
+#box1{
+    background-color: lightgray;
+}
+#box2{
+    background-color: lightblue;
+     height: 150px;
+     /* align-self: flex-end; */
+}
+#box3{
+    background-color: lightgreen;
+    flex-grow: 1;
+   
+}
+#box4{
+    background-color: rgb(231, 104, 186);
+     flex-grow: .5; /*using flex grow it occupy the remaining space wrt to other boxes which also using flrx-grow */
+}
+#box5{
+    background-color:aqua;
+    flex-shrink: 2;/*it shrinks the box to fit the container twice as much as other boxes */
+}
