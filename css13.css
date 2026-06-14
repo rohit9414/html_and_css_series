@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(90deg);
+    position :absolute;
+    left:100px;
+    top:100px;
+    
+    /* transform:scale(1.5); */
+  
+}
+div:hover{
+    background-color: blue;
+   
+    transition: all 1s ease;
+    color: white;
+    transform:scale(1.5) /*we can also apply hover on sacle */ translate(100px,200px) skew(20deg)/*used to make it slanted(rhombus type shape)*/ ;
+    
+}

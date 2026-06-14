@@ -1,0 +1,40 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 140);
+    color:rgb(0, 234, 255);
+    position :absolute;
+    top:200px;
+    left:200px;
+    animation-name:Rohit,karan,arjun;
+    
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;/* we can also use alternate , normal */
+    animation-timing-function: linear;
+   
+}
+@keyframes Rohit{
+    from {
+        left: 0px;
+        background-color: red;
+    }                            /*we can write multiple properties in keyframes*/
+    to{
+        left: 200px;
+        background-color: blue;
+    }
+}
+@keyframes karan{
+    from {font-size: 20px;}
+    to {font-size: 30px;}
+}
+
+/* we can also write in % percentage transition*/
+/* @keyframes arjun{
+    0% {background-color: red;}
+    50% {background-color: green;}
+    100% {background-color: blue;}
+} */
+
+
+
