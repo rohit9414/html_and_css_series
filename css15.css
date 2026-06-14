@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #ff6b6b;
+    border: 10px solid #4ecdc4;
+    border-top: 10px solid #ffe66d;
+    border-bottom: #1a899f;
+    border-radius: 50%;
+    position:absolute;
+    top:100px;
+    left:100px;
+    animation: spinanimate 1s linear 0s infinite;
+}
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
