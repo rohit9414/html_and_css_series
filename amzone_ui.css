@@ -2,25 +2,147 @@
     margin: 0;
     padding: 0;
 }
+html{
+    height: 1000px;
+    
+}
 .navbar{
-    height:60px;
+    height:50px;
     width:100%;
     background-color: #0f1111;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .nav-logo{
     height: 50px;
     width: 100px;
-    
+   
 }
 .logo{
     background-image: url("amazone/amazone.png");
     background-size:cover;
     height:50px;
     width:100%;
+    
 }
 .border{
     border:2px solid transparent;
 }
 .border:hover{
     border:2px solid white;
+}
+.nav-address{
+    color:white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    height:40px;
+    width:80px;
+}
+.nav-deliver{
+    margin-left: 18px;
+    font-size: .85rem;
+    color:#cccccc;
+}
+.nav-location{
+    font-size: 1rem;
+    font-weight: 700;
+    display:flex;
+}
+.nav-search{
+    display: flex;
+    background-color: #febd68;
+    width:800px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-icon{
+    color:black;
+    height: 32px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    width:45px;
+    border:none;
+    text-align: center;
+}
+.search-input{
+  
+    width:100%;
+    border:none;
+    font-size: medium;
+    font-weight: 700;
+    color: #0f1111;
+}
+.nav-first{
+    font-size: .75rem;
+    color:white;
+}
+.nav-second{
+    font-size: .92rem;
+    font-weight: 700;
+    color:white;
+}
+.nav-login{
+    height: 35px;
+}
+.nav-cart{
+    color:white;
+    font-size: 2rem;
+    display: flex;
+   
+}
+.cart-font{
+    font-size: .92rem;
+    font-weight: 800;
+    display: flex;
+    align-self:end;
+}
+.nav-panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;/*ye div ko ek line lane ke liye use kiya jaata hai*/
+    align-items: center;
+    color:white;
+}
+.panel-option{
+    width:80%;
+    font-size: 0.85rem;
+}
+.panel-option p{
+    display:inline;/*div ke andar text ko line mein laane ke liye use kiya jaata hai*/
+    margin-left: 20px;
+    
+}
+.hero-section{
+    background-image: url("amazone/hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center;
+}
+.hero-msg{
+    background-color:white;
+    color:black;
+    margin-bottom: 25px;
+    font-size: .85rem;
+}
+.hero-msg a{
+   color: #007185;
+   font-size: 1rem;
+   font-weight: 700;
+   text-decoration: none;
+   
 }
